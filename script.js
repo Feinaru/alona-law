@@ -26,11 +26,3 @@ function setLanguage(lang) {
 
 setLanguage('en');
 
-function submitForm(event) {
-  event.preventDefault();
-
-  const message = document.getElementById('formMessage');
-  message.textContent = 'Your details were received. We will get back to you shortly.';
-
-  event.target.reset();
-}
