@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>אלונה מורציאנו | Business & Legal Executive</title>
@@ -11,6 +11,7 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <main class="landing" id="top">
     <header class="topbar container">
@@ -20,7 +21,6 @@
       </a>
 
       <div class="top-actions">
-
         <a class="top-cta" href="#contact" data-he="יצירת קשר" data-en="Contact">יצירת קשר</a>
       </div>
     </header>
@@ -119,17 +119,18 @@
         <p data-he="פתוחה לשיחות משמעותיות, שותפויות אסטרטגיות, הזדמנויות השקעה ויוזמות עסקיות מורכבות." data-en="Open to meaningful conversations, strategic partnerships, investment opportunities and complex business initiatives.">
           פתוחה לשיחות משמעותיות, שותפויות אסטרטגיות, הזדמנויות השקעה ויוזמות עסקיות מורכבות.
         </p>
+
         <div class="contact-direct">
           <a href="tel:+972507428333">+972 50-7428333</a>
           <a href="https://www.linkedin.com/in/alona-murciano-136b37b9/" target="_blank" rel="noopener">LinkedIn Profile</a>
         </div>
       </div>
 
-      <form class="contact-form" onsubmit="submitForm(event)">
-        <input required type="text" data-placeholder-he="שם מלא" data-placeholder-en="Full name" placeholder="שם מלא" />
-        <input required type="email" data-placeholder-he="אימייל" data-placeholder-en="Email" placeholder="אימייל" />
-        <input type="tel" data-placeholder-he="טלפון" data-placeholder-en="Phone" placeholder="טלפון" />
-        <textarea rows="4" data-placeholder-he="כמה מילים על הנושא" data-placeholder-en="A few words about the opportunity" placeholder="כמה מילים על הנושא"></textarea>
+      <form class="contact-form" action="https://formspree.io/f/xjgqbpqe" method="POST">
+        <input required type="text" name="name" data-placeholder-he="שם מלא" data-placeholder-en="Full name" placeholder="שם מלא" />
+        <input required type="email" name="email" data-placeholder-he="אימייל" data-placeholder-en="Email" placeholder="אימייל" />
+        <input type="tel" name="phone" data-placeholder-he="טלפון" data-placeholder-en="Phone" placeholder="טלפון" />
+        <textarea rows="4" name="message" data-placeholder-he="כמה מילים על הנושא" data-placeholder-en="A few words about the opportunity" placeholder="כמה מילים על הנושא"></textarea>
         <button type="submit" data-he="שליחה" data-en="Send">שליחה</button>
         <small id="formMessage"></small>
       </form>
