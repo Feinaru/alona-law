@@ -27,7 +27,7 @@ function setLanguage(lang) {
 }
 
 langButtons.forEach(btn => btn.addEventListener('click', () => setLanguage(btn.dataset.lang)));
-setLanguage(localStorage.getItem('landingLang') || 'he');
+setLanguage(localStorage.getItem('landingLang') || 'en');
 
 function submitForm(event) {
   event.preventDefault();
