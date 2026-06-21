@@ -12,7 +12,7 @@ const placeholders = document.querySelectorAll('[data-placeholder-he][data-place
 
 function setLanguage(lang) {
   document.documentElement.lang = lang;
-  document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
+  document.documentElement.dir = lang === 'en' ? 'rtl' : 'ltr';
 
   translatable.forEach(el => {
     el.textContent = el.dataset[lang];
