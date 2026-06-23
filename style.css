@@ -35,6 +35,12 @@ button,input,textarea{font-family:inherit}
     linear-gradient(180deg,#fbfcfd 0%,#f7f8fa 45%,#eef1f5 100%);
 }
 
+.phone-number{
+  direction:ltr;
+  unicode-bidi:isolate;
+  text-align:center;
+}
+
 .topbar{
   height:92px;
   display:flex;
