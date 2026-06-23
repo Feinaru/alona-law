@@ -209,3 +209,21 @@ html[dir="ltr"] .brand span{font-family:Manrope,Arial,sans-serif}
   color:white;
   border-color:var(--primary);
 }
+
+
+
+@media (max-width: 768px) {
+
+  /* מסתיר את התיאור שמתחת לתמונה */
+  .profile-card .card-label {
+    display: none;
+  }
+
+  /* משאיר את התיאור העליון בשורה אחת */
+  .hero .eyebrow {
+    white-space: nowrap;
+    font-size: clamp(0.65rem, 3vw, 0.95rem);
+    line-height: 1.1;
+  }
+
+}
