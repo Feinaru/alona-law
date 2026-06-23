@@ -74,9 +74,9 @@ button,input,textarea{font-family:inherit}
 }
 .hero h1{
   margin:0 0 24px;
-  font-size:clamp(3rem,6.2vw,6.3rem);
-  line-height:.96;
-  letter-spacing:-.055em;
+  font-size:clamp(2.15rem,4.2vw,3.65rem);
+  line-height:1.08;
+  letter-spacing:-.035em;
   color:var(--primary);
 }
 .lead{font-size:clamp(1.1rem,1.7vw,1.32rem);color:var(--muted);max-width:760px;margin:0}
@@ -172,8 +172,7 @@ html[dir="ltr"] .brand span{font-family:Manrope,Arial,sans-serif}
 }
 @media(max-width:560px){
   .topbar{height:auto;padding:18px 0;align-items:flex-start}.top-actions{flex-wrap:wrap;justify-content:flex-end}.top-cta{display:none}
-  .hero{padding:18px 0 56px}.hero h1{font-size:clamp(2.55rem,14vw,4.5rem)}
-  .btn{width:100%;text-align:center}.profile-card,.text-panel,.focus-card,.contact-form{padding:22px;border-radius:24px}
+  .hero{padding:18px 0 56px}.hero h1{font-size:clamp(2.05rem,10vw,3.35rem)}  .btn{width:100%;text-align:center}.profile-card,.text-panel,.focus-card,.contact-form{padding:22px;border-radius:24px}
   .profile-image{height:310px}.profile-card h2{font-size:2.15rem}
   .contact-direct a{width:100%;text-align:center}.profile,.focus,.contact{padding:66px 0}.footer{padding-bottom:24px}
 }
